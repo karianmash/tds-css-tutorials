@@ -6,11 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Introduction to CSS</title>
     <link rel="icon" type="image/x-icon" href="tds.jpeg" />
+
+    <!-- link external css file -->
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <div>Introduction to CSS!</div>
+    <div class="div1">Introduction to CSS!</div>
 
-    <p>Paragraph</p>
+    <p style="font-size: 3rem">Paragraph</p>
+
+    <div>
+      Hello there!
+      <p>Hello second div!</p>
+    </div>
+    <br />
+
+    <!-- div element with id attribute -->
+    <div id="div2">Hello there!, I use id selector</div>
+
+    <!-- style using the child selector -->
+    <div class="div3">
+      <p>Hello there!, I use child selector</p>
+    </div>
+
+    <!-- styling a form using the attribute selector -->
+    <form action="index.html" method="post">
+      <input type="text" name="name" placeholder="Enter your name" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- styling using the group selector -->
+    <div class="div4">
+      <p>Hello there!, I use group selector</p>
+    </div>
   </body>
 </html>
