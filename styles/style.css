@@ -13,13 +13,51 @@ body {
 .div1 {
   background-color: green;
   padding: 1rem;
-  border-radius: 2px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 /* style p element */
 p {
   color: red;
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
 }
 /* style element with the id "para1" */
 #para1 {
-  color: blue;
+  color: rgb(225, 231, 134);
+}
+/* Styling the form element */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 2px;
+}
+/* styling form elements by attribute selectors */
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  border-radius: 3px;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 3px;
 }
