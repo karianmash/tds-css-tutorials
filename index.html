@@ -11,33 +11,33 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <!-- different ways to select elements in css -->
+    <!-- 1. by class name -->
     <div class="div1">Introduction to CSS!</div>
 
-    <p style="font-size: 3rem">Paragraph</p>
+    <!-- 2. by element name -->
+    <div class="select-type">Select using element name</div>
+    <p>This is a paragraph styled by being selected using element name!</p>
 
-    <div>
-      Hello there!
-      <p>Hello second div!</p>
-    </div>
-    <br />
+    <!-- 3. by id -->
+    <div class="select-type">Select using id name</div>
+    <p id="para1">
+      This is a paragraph styled by being selected using id name!
+    </p>
 
-    <!-- div element with id attribute -->
-    <div id="div2">Hello there!, I use id selector</div>
-
-    <!-- style using the child selector -->
-    <div class="div3">
-      <p>Hello there!, I use child selector</p>
-    </div>
-
-    <!-- styling a form using the attribute selector -->
-    <form action="index.html" method="post">
-      <input type="text" name="name" placeholder="Enter your name" />
+    <!-- 4. by attribute -->
+    <div class="select-type">Select using attribute name</div>
+    <!-- styling a form input of type submit using attribute selector -->
+    <form>
+      <input type="text" placeholder="Enter your name" />
+      <!-- submit input type -->
+      <!-- Style using pseudo class -->
       <input type="submit" value="Submit" />
     </form>
 
-    <!-- styling using the group selector -->
-    <div class="div4">
-      <p>Hello there!, I use group selector</p>
-    </div>
+    <!-- 5. by pseudo class -->
+    <div class="select-type">Select using pseudo class name</div>
+    <!-- styling a link using pseudo class -->
+    <a href="https://www.google.com/">Google</a>
   </body>
 </html>
