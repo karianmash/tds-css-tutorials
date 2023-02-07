@@ -61,3 +61,12 @@ input[type="submit"] {
   font-weight: bold;
   border-radius: 3px;
 }
+/* Add light color change hover effect to the input type submit */
+input[type="submit"]:hover {
+  background-color: rgb(53, 51, 51);
+}
+/* styling the a element using pseudo class */
+a:link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
