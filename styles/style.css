@@ -9,6 +9,18 @@ body {
   margin: 1rem auto;
   background-color: black;
 }
+/* style the element with class name select-type */
+.select-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: green;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  padding: 0 0.7rem;
+  color: white;
+}
 /* style element with class name "div1" */
 .div1 {
   background-color: green;
@@ -24,7 +36,7 @@ body {
 /* style p element */
 p {
   color: red;
-  margin-bottom: 0.8rem;
+  margin-bottom: 4rem;
   font-size: 1.3rem;
 }
 /* style element with the id "para1" */
@@ -40,6 +52,7 @@ form {
   background-color: rgb(255, 255, 255);
   padding: 1rem;
   border-radius: 2px;
+  margin-bottom: 4rem;
 }
 /* styling form elements by attribute selectors */
 input[type="text"] {
@@ -68,5 +81,6 @@ input[type="submit"]:hover {
 /* styling the a element using pseudo class */
 a:link {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  font-size: 1.7rem;
+  border-bottom: 5px dotted rgb(0, 0, 0);
 }
